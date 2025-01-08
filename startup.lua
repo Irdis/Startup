@@ -16,7 +16,7 @@ startup.run = function()
         vim.api.nvim_command('file ' .. app.name)
 
         for _, cmd in ipairs(app.cmds) do
-            vim.api.nvim_chan_send(ch, cmd .. '\r\n')
+            vim.api.nvim_chan_send(ch, cmd .. '\r')
         end
     end
     vim.api.nvim_set_current_buf(startup.main)
