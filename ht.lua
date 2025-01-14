@@ -4,7 +4,7 @@ local ht = {}
 
 ht.startup = startup
 
-ht.setup = function()
+ht.setup = function(config)
     startup.setup({
         {
             name = 'sso',
@@ -61,9 +61,16 @@ ht.setup = function()
                 'dotnet run --no-build --launch-profile Hazeltree.MessageBus.Atlas.ServiceHost'
             }
         },
+        {
+            name = 'collateral',
+            cmds = {
+                'cd c:\\Repo\\hazeltree\\collateral\\Collateral\\Hazeltree.Collateral.Host',
+                'dotnet run --launch-profile Hazeltree.Collateral.Host'
+            },
+            disabled = config.collateral_disabled
+        },
     })
 end
-
 return ht
 
 
