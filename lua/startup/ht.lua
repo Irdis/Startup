@@ -61,4 +61,18 @@ return {
             'dotnet run --launch-profile Hazeltree.Collateral.Host'
         },
     },
+    {
+        name = 'debt',
+        cmds = {
+            'cd c:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\Hazeltree.DebtManagement.API.Host',
+            'dotnet run --launch-profile Hazeltree.DebtManagement.API.Host'
+        },
+    },
+    {
+        name = 'tran',
+        cmds = {
+            'cd C:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\Hazeltree.TransactionManager.API.Host',
+            'dotnet run --launch-profile Hazeltree.TransactionManager.API.Host'
+        },
+    },
 }
