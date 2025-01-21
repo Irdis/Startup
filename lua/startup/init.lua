@@ -35,13 +35,16 @@ M.run = function(options)
 end
 
 M.is_disabled = function(app, options)
+    if not options or not options[app.name] then
+        return app.disabled
+    end
+
+    local app_options = options[app.name]
+    if app_options['disabled'] ~= nil then 
+        return app_options['disabled']
+    end
+
     if app.disabled then
-        return true
-    end
-    if not options then
-        return false
-    end
-    if options[app.name] and options[app.name].disabled then 
         return true
     end
     return false;

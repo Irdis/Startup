@@ -1,4 +1,4 @@
 startup = require('startup')
-startup.run({collateral = { disabled = false }})
+startup.run({white_dev = { disabled = false }})
 startup.stop()
 

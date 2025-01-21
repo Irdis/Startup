@@ -12,6 +12,13 @@ return {
         }
     },
     {
+        name = 'white_dev',
+        cmds = {
+            '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\whitehost.config" /apppool:"Clr4IntegratedAppPool"' 
+        },
+        disabled = true
+    },
+    {
         name = 'job',
         cmds = {
             'c:\\Repo\\hazeltree\\app\\job\\HTFS.Common.Job.Service.exe' 
