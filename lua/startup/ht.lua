@@ -82,4 +82,12 @@ return {
             'dotnet run --launch-profile Hazeltree.TransactionManager.API.Host'
         },
     },
+    {
+        name = 'tran_dev',
+        cmds = {
+            'cd C:\\Repo\\hazeltree\\TransactionManager\\Hazeltree\\TransactionManager\\API\\Host',
+            'dotnet run --project Hazeltree.TransactionManager.API.Host.csproj --launch-profile Hazeltree.TransactionManager.API.Host'
+        },
+        disabled = true
+    },
 }
