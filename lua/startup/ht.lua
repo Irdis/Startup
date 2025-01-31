@@ -25,6 +25,12 @@ return {
         }
     },
     {
+        name = 'white_job',
+        cmds = {
+            'c:\\Repo\\hazeltree\\app\\whitejob\\Hazeltree.AppTask.Service.Host.exe /console' 
+        }
+    },
+    {
         name = 'user',
         cmds = {
             'cd c:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\HazelTree.UserManagement.Host',
