@@ -27,7 +27,7 @@ return {
     {
         name = 'white_job',
         cmds = {
-            'c:\\Repo\\hazeltree\\app\\whitejob\\Hazeltree.AppTask.Service.Host.exe /console' 
+            'C:\\Repo\\hazeltree\\WhiteApi\\HazelTree.AppTask.Service.Host\\bin\\Debug\\Hazeltree.AppTask.Service.Host.exe /console' 
         }
     },
     {
