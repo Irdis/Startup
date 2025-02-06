@@ -96,4 +96,11 @@ return {
         },
         disabled = true
     },
+    {
+        name = 'optimizer',
+        cmds = {
+            'cd C:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\Optimizer\\Hazeltree.Optimizer.Host',
+            'dotnet run --launch-profile Hazeltree.Optimizer.Host'
+        },
+    },
 }
