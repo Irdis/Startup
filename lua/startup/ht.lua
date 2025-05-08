@@ -38,6 +38,13 @@ return {
         }
     },
     {
+        name = 'notification',
+        cmds = {
+            'cd c:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\HazelTree.NotificationsService.Host',
+            'dotnet run --launch-profile HazelTree.NotificationsService.Host'
+        }
+    },
+    {
         name = 'aux',
         cmds = {
             'cd c:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\Hazeltree.Auxiliary.Host\\',
@@ -71,7 +78,7 @@ return {
         name = 'collateral',
         cmds = {
             'cd c:\\Repo\\hazeltree\\collateral\\Collateral\\Hazeltree.Collateral.Host',
-            'dotnet run --launch-profile Hazeltree.Collateral.Host'
+            'dotnet watch run --launch-profile Hazeltree.Collateral.Host'
         },
     },
     {
