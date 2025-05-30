@@ -78,7 +78,7 @@ return {
         name = 'collateral',
         cmds = {
             'cd c:\\Repo\\hazeltree\\collateral\\Collateral\\Hazeltree.Collateral.Host',
-            'dotnet watch run --launch-profile Hazeltree.Collateral.Host'
+            'dotnet run --launch-profile Hazeltree.Collateral.Host'
         },
     },
     {
