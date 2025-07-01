@@ -2,32 +2,32 @@ return {
     {
         name = 'sso',
         cmds = {
-            '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\applicationhost.config" /site:"Hazeltree.SSO.Host" /apppool:"Hazeltree.SSO.Host AppPool"' 
+            '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\applicationhost.config" /site:"Hazeltree.SSO.Host" /apppool:"Hazeltree.SSO.Host AppPool"'
         }
     },
     {
         name = 'main',
         cmds = {
-            '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\applicationhost.config" /apppool:"Clr4IntegratedAppPool"' 
+            '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\applicationhost.config" /apppool:"Clr4IntegratedAppPool"'
         }
     },
     {
         name = 'white_dev',
         cmds = {
-            '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\whitehost.config" /apppool:"Clr4IntegratedAppPool"' 
+            '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\whitehost.config" /apppool:"Clr4IntegratedAppPool"'
         },
-        disabled = true
+        disabled = false
     },
     {
         name = 'job',
         cmds = {
-            'c:\\Repo\\hazeltree\\app\\job\\HTFS.Common.Job.Service.exe' 
+            'c:\\Repo\\hazeltree\\app\\job\\HTFS.Common.Job.Service.exe'
         }
     },
     {
         name = 'white_job',
         cmds = {
-            'C:\\Repo\\hazeltree\\WhiteApi\\HazelTree.AppTask.Service.Host\\bin\\Debug\\Hazeltree.AppTask.Service.Host.exe /console' 
+            'C:\\Repo\\hazeltree\\WhiteApi\\HazelTree.AppTask.Service.Host\\bin\\Debug\\Hazeltree.AppTask.Service.Host.exe /console'
         }
     },
     {

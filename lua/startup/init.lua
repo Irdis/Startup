@@ -40,7 +40,7 @@ M.is_disabled = function(app, options)
     end
 
     local app_options = options[app.name]
-    if app_options['disabled'] ~= nil then 
+    if app_options['disabled'] ~= nil then
         return app_options['disabled']
     end
 
