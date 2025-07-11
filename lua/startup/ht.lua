@@ -16,7 +16,7 @@ return {
         cmds = {
             '"C:/Program Files/IIS Express/iisexpress.exe" /config:"c:\\Repo\\hazeltree\\app\\whitehost.config" /apppool:"Clr4IntegratedAppPool"'
         },
-        disabled = false
+        disabled = true
     },
     {
         name = 'job',
@@ -50,6 +50,14 @@ return {
             'cd c:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\Hazeltree.Auxiliary.Host\\',
             'dotnet run --launch-profile Hazeltree.Auxiliary.Host'
         }
+    },
+    {
+        name = 'aux_dev',
+        cmds = {
+            'cd C:\\Repo\\hazeltree\\auxiliary\\AuxiliaryApi\\Hazeltree.Auxiliary.Host',
+            'dotnet run --launch-profile Hazeltree.Auxiliary.Host'
+        },
+        disabled = true
     },
     {
         name = 'gate',
