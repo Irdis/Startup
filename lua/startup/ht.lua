@@ -118,4 +118,11 @@ return {
             'dotnet run --launch-profile Hazeltree.Optimizer.Host'
         },
     },
+    {
+        name = 'public_api_proxy',
+        cmds = {
+            'cd C:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\Hazeltree.PublicApiProxy',
+            'dotnet run --launch-profile Hazeltree.PublicApiProxy-Local'
+        },
+    },
 }
