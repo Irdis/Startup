@@ -48,7 +48,7 @@ return {
         name = 'report',
         cmds = {
             'cd c:\\Repo\\hazeltree\\main\\HTFS\\Applications\\NetCoreHosts\\Hazetree.ReportManager.Host\\',
-            'dotnet run --launch-profile Hazetree.ReportManager.Host'
+            'dotnet run --launch-profile Hazeltree.ReportManager.Host'
         }
     },
     {
